@@ -1,11 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import gsap from "gsap";
-
 import "./Header.css";
-import { useGSAP } from "@gsap/react";
-
-gsap.registerPlugin(useGSAP);
 
 function Header({ isDark, toggleTheme }) {
   return (
